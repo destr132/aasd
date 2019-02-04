@@ -1,8 +1,109 @@
-#rectangle1 {
+body{
+
+    margin: 0;
+    padding-top: 5px;
+}
+.rectangle {
+
     position: absolute;
     width: 1440px;
-    height: 115px;
+    height: 103px;
     left: 0px;
     top: 0px;
-    background: darkgray;
+
+    background: #FFFFFF;
+}
+.rectangle1 {
+    display: flex;
+    position: absolute;
+    left: 48.06%;
+    right: 0%;
+    top: 0%;
+    bottom: 54.37%;
+
+    /* Grey_details_1 */
+    background: #E6E9F0;
+}
+.rectangle2 {
+    position: absolute;
+    left: 26.6%;
+    right: 0%;
+    top: 0%;
+    bottom: 54.37%;
+
+    /* Grey_details_1 */
+    background: rgba(33, 127, 247, 0.2);
+}
+
+.rectangle3 {
+    position: absolute;
+    left: 14.79%;
+    right: 73.4%;
+    top: 0%;
+    bottom: 54.37%;
+
+    /* 20% blue */
+    background: rgba(33, 127, 247, 0.2);
+}
+.container	{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+.menu button{
+    background: #217FF7;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: -8px;
+}
+
+
+.right a:hover{
+    color: red;
+}
+
+.left{
+
+
+    position: absolute;
+    width: 183px;
+    height: 57px;
+    left: 22px;
+    top: 19px;
+}
+
+.right {
+    width: 87%;
+    height: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#radiobells_container{
+    width: 100%;
+    margin-top: 0px;
+    padding-right: 5px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+.menu{
+    width: 87%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: unset;
+    top: 64.08%;
+    bottom: 18.45%;
 }
